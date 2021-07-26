@@ -1,5 +1,5 @@
 if test -e $HOME/.ssh/environment
-    return 0
+    exit 0
 end
 
 if test -z "$SSH_ENV"
