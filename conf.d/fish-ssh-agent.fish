@@ -1,4 +1,4 @@
-if test -e $HOME/.ssh/environment
+if not test -e $HOME/.ssh/environment
     exit 0
 end
 
