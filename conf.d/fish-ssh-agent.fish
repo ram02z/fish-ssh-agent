@@ -1,4 +1,4 @@
-if test -z "$SSH_ENV"
+if test -e $HOME/.ssh/environment and test -z "$SSH_ENV"
     set -xg SSH_ENV $HOME/.ssh/environment
 end
 
